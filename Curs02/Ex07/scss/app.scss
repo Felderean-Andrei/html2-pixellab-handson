@@ -17,3 +17,31 @@ $colors: (
     color: $color;
   }
 }
+
+$colors: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $name, $color in $colors {
+  .btn-bg-#{$name} {
+    background-color: $color;
+  }
+}
+
+$colors: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $name, $color in $colors {
+  .text-#{$name} {
+    color: $color;
+  }
+}
