@@ -17,14 +17,14 @@ body > div:first-child {
 
 @keyframes blink {
   0% {
-    opacity: 1;
+    Color: white;
   }
 
   100% {
-    opacity: 0;
+    Color: black;
   }
 }
 
 body > div:first-child span {
-  animation: blink 1.5s linear infinite alternate;
+  animation: blink 3s linear infinite alternate;
 }
