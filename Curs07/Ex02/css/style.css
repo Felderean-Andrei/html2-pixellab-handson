@@ -43,7 +43,7 @@ body {
   }
 
   100% {
-    transform: translate(0, (100vh - 100px));
+    transform: translate(0, 0);
   }
 }
 
