@@ -26,20 +26,24 @@ body {
 
 /* Punctul 2 */
 @keyframes box-2 {
-  25% {
+  20% {
     transform: translate(0, calc(100vh - 100px));
   }
 
-  50% {
+  40% {
     transform: translate(calc(100vw - 100px), calc(100vh - 100px));
   }
 
-  75% {
+  60% {
     transform: translate(calc(100vw - 100px), 0);
   }
 
-  100%{
+  80%{
     transform: translate(0,calc(100vh - 100px));
+  }
+
+  100% {
+    transform: translate(0, (100vh - 100px));
   }
 }
 
